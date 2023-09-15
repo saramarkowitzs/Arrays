@@ -12,7 +12,7 @@ public class Arrays
         System.out.println();
         for (int i=0; i < strArray.length; i++) {
             System.out.print(strArray[i]);
-            if () {
+            if (i !=strArray.length-1) {
                 System.out.print("-");
             }
         }
